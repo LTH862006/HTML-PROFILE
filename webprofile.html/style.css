@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.name {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.title {
+    text-align: center;
+    color: #f59e0b;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-title {
+    background: #f59e0b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact-item, .education-item, .skill-item {
+    margin: 5px 0;
+}
+
+.skill-bar {
+    width: 100%;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.skill-progress {
+    height: 100%;
+    background: #f59e0b;
+    text-align: right;
+    color: white;
+    padding-right: 5px;
+    transition: width 1ms ease-in-out;
+    border-radius: 5px;
+}
+
+.soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.soft-skill {
+    background: #f59e0b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
